@@ -1,0 +1,11 @@
+<nav>
+  <ul>
+    {{ range .Site.Menus.main }}
+      {{ if eq .Name "Contact" }}
+        <li><a href="{{ .URL }}" target="_blank" rel="noopener">{{ .Name }}</a></li>
+      {{ else }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>

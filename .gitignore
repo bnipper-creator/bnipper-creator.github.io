@@ -1,0 +1,15 @@
+# Generated files
+/public/
+/resources/
+.hugo_build.lock
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

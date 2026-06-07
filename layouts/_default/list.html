@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <article>
+    <h1>{{ .Title }}</h1>
+    <div class="prose prose-invert mt-4">
+      {{ .Content }}
+    </div>
+
+    {{ if .Pages }}
+      <div class="mt-8 space-y-6">
+        {{ range .Pages.ByDate.Reverse }}
+          <div class="border border-gray-700 rounded p-4">
+            <h2 class="text-xl font-semibold m-0">
+              <a href="{{ .RelPermalink }}" class="hover:text-blue-400">{{ .Title }}</a>
+            </h2>
+            {{ if .Params.description }}
+              <p class="text-gray-400 text-sm mt-1 mb-0">{{ .Params.description }}</p>
+            {{ end }}
+            {{ if .Date }}
+              <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-gray-600 text-xs">
+                {{ .Date.Format "January 2, 2006" }}
+              </time>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+{{ end }}
