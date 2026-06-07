@@ -18,18 +18,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 0.162.1
-          extended: true
+      - name: Install Hugo
+        run: |
+          wget -q https://github.com/gohugoio/hugo/releases/download/v0.162.1/hugo_extended_0.162.1_linux-amd64.tar.gz
+          tar xzf hugo_extended_0.162.1_linux-amd64.tar.gz
+          sudo mv hugo /usr/local/bin/
 
-      - name: Build
+      - name: Build site
         run: hugo --minify
 
-      - name: Upload Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
