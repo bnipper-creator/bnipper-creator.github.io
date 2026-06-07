@@ -1,7 +1,5 @@
 baseURL = "https://bnipper-creator.github.io/"
-locale = "en-us"
 title = "Blake Gnipper | Security Engineer"
-theme = ""
 
 [outputs]
 home = ["HTML"]
