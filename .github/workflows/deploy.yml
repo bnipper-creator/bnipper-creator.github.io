@@ -23,40 +23,12 @@ jobs:
 
       - name: Install Hugo
         run: |
-          set -x
           wget -q https://github.com/gohugoio/hugo/releases/download/v0.162.1/hugo_extended_0.162.1_linux-amd64.tar.gz
           tar xzf hugo_extended_0.162.1_linux-amd64.tar.gz
           sudo mv hugo /usr/local/bin/
 
-      - name: Pre-build diagnostics
-        run: |
-          set -x
-          echo "=== Hugo version ==="
-          hugo version
-          echo "=== Working directory ==="
-          pwd
-          echo "=== Content files ==="
-          ls -la content/
-          echo "=== Hugo config ==="
-          cat hugo.toml
-          echo "=== Config validation ==="
-          hugo config
-
       - name: Build site
-        run: |
-          set -x
-          echo "=== Starting Hugo build ==="
-          hugo --minify 2>&1
-          echo "=== Build completed ==="
-
-      - name: Post-build diagnostics
-        if: success()
-        run: |
-          set -x
-          echo "=== Public directory ==="
-          ls -la public/ | head -20
-          echo "=== Site files count ==="
-          find public -type f | wc -l
+        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
