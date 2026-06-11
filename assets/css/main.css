@@ -215,9 +215,14 @@ nav {
   border-bottom: 1px solid var(--border);
   background-color: var(--bg-surface);
   padding: var(--space-4) 0;
-  position: sticky;
-  top: 0;
   z-index: 100;
+}
+
+@media (min-width: 768px) {
+  nav {
+    position: sticky;
+    top: 0;
+  }
 }
 
 nav .container {
