@@ -2,12 +2,10 @@
 title: Home
 ---
 
-![Blake Nipper](/images/profile.jpg)
-
 # Security Engineer & Builder
 
-Hi. I'm Blake — a security engineer with 5+ years at Amazon building defensive tooling, incident response automation, and cloud security practices. I'm currently building a portfolio of security projects across detection engineering, forensics, cloud security, and pentest tooling.
+I'm Blake — a security engineer with 5+ years at Amazon building defensive tooling, incident response automation, and cloud security practices. I focus on incident response, offensive security, and cloud-native detection.
 
-This site is my lab notebook for that work.
+Currently completing Georgia Tech's OMSCS in cybersecurity (graduating May 2028). This site is my lab notebook for security work: case studies, tooling, and lessons learned.
 
-[📄 Download Resume](/resume.pdf)
+[Download Resume](/resume.pdf)
