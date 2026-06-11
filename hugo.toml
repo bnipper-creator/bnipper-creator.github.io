@@ -1,8 +1,14 @@
 baseURL = "https://bnipper-creator.github.io/"
-title = "Blake Gnipper | Security Engineer"
+title = "Blake Nipper | Security Engineer"
 
 [outputs]
 home = ["HTML"]
+
+[params]
+description = "Security engineer with 5+ years at Amazon building defensive tooling, incident response automation, and cloud security. Georgia Tech OMSCS student (cybersecurity track). This is my lab notebook for security projects, incident response, and tooling."
+author = "Blake Nipper"
+github = "https://github.com/bnipper-creator"
+linkedin = "https://linkedin.com/in/blake-nipper"
 
 [[menu.main]]
 name = "Home"
@@ -26,5 +32,5 @@ weight = 4
 
 [[menu.main]]
 name = "Contact"
-url = "https://linkedin.com/in/blake-gnipper"
+url = "https://linkedin.com/in/blake-nipper"
 weight = 5

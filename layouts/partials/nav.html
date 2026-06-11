@@ -1,11 +1,25 @@
 <nav>
-  <ul>
-    {{ range .Site.Menus.main }}
-      {{ if eq .Name "Contact" }}
-        <li><a href="{{ .URL }}" target="_blank" rel="noopener">{{ .Name }}</a></li>
-      {{ else }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+  <div class="container">
+    <ul>
+      {{ range .Site.Menus.main }}
+        {{ if eq .Name "Contact" }}
+          <li><a href="{{ .URL }}" target="_blank" rel="noopener">{{ .Name }}</a></li>
+        {{ else }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
       {{ end }}
-    {{ end }}
-  </ul>
+    </ul>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
+      <span class="theme-icon">◐</span>
+    </button>
+  </div>
 </nav>
+
+<script>
+  function toggleTheme() {
+    const html = document.documentElement;
+    const theme = html.className === 'dark' ? 'light' : 'dark';
+    html.className = theme;
+    localStorage.setItem('theme', theme);
+  }
+</script>
