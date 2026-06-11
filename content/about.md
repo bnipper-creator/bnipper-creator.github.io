@@ -28,10 +28,9 @@ Incident response, offensive security, and cloud security across multiple domain
 
 - **AWS Solutions Architect Professional** (SAP)
 - **AWS Security Specialty**
-- **Google Cloud Certified Cloud Engineer** (GCFE)
-- **GIAC Penetration Tester** (GPYC)
-- **Certified Burp Suite Practitioner** (CBBH)
-- **CISSP** (in-progress)
+- **GIAC Certified Forensic Examiner** (GCFE)
+- **GIAC Python Coder** (GPYC)
+- **Certified Bug Bounty Hunter** (CBBH)
 
 ---
 
