@@ -17,8 +17,8 @@
 {{ if .Params.image }}<meta name="twitter:image" content="{{ .Params.image | absURL }}">{{ end }}
 
 <!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <!-- CSS -->
 {{ $css := resources.Get "css/main.css" | minify }}

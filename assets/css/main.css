@@ -512,21 +512,65 @@ footer .container {
 @media print {
   nav,
   footer,
-  .theme-toggle {
+  .theme-toggle,
+  .skip-link {
     display: none;
   }
 
   body {
     background-color: white;
     color: #000;
+    line-height: 1.5;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+    color: #000;
   }
 
   a {
     color: #0066cc;
+    text-decoration: underline;
   }
 
-  .card {
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  a[href^="#"]::after {
+    content: "";
+  }
+
+  .card,
+  .timeline-item {
     border: 1px solid #ccc;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .hero {
+    page-break-after: avoid;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    page-break-before: avoid;
+    page-break-after: avoid;
+  }
+
+  img {
+    max-width: 100%;
     page-break-inside: avoid;
   }
 }
