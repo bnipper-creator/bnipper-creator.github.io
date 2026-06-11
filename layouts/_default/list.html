@@ -1,24 +1,24 @@
 {{ define "main" }}
   <article>
     <h1>{{ .Title }}</h1>
-    <div class="prose prose-invert mt-4">
+    <div class="prose" style="margin-bottom: var(--space-8);">
       {{ .Content }}
     </div>
 
     {{ if .Pages }}
-      <div class="mt-8 space-y-6">
+      <div>
         {{ range .Pages.ByDate.Reverse }}
-          <div class="border border-gray-700 rounded p-4">
-            <h2 class="text-xl font-semibold m-0">
-              <a href="{{ .RelPermalink }}" class="hover:text-blue-400">{{ .Title }}</a>
-            </h2>
+          <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: baseline; gap: var(--space-4); margin-bottom: var(--space-3);">
+              <h2 style="margin: 0;">
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </h2>
+              {{ if .Date }}
+                <div class="timeline-date">{{ .Date.Format "January 2, 2006" }}</div>
+              {{ end }}
+            </div>
             {{ if .Params.description }}
-              <p class="text-gray-400 text-sm mt-1 mb-0">{{ .Params.description }}</p>
-            {{ end }}
-            {{ if .Date }}
-              <time datetime="{{ .Date.Format "2006-01-02" }}" class="text-gray-600 text-xs">
-                {{ .Date.Format "January 2, 2006" }}
-              </time>
+              <p style="margin-bottom: 0; color: var(--text-muted);">{{ .Params.description }}</p>
             {{ end }}
           </div>
         {{ end }}
