@@ -19,17 +19,17 @@ AWS environments accumulate misconfigurations over time — public S3 buckets, o
 - **Central CIS catalog**: every check maps to a CIS control ID, title, severity, and remediation guidance defined in one place, so scanners and reports can never drift out of sync.
 - **Reporting**: findings render as a `rich` console table, or export to JSON/CSV for downstream tooling.
 - **Safe-by-default remediation**: a `remediate` command can fix certain findings (currently S3 Block Public Access), but requires *both* `--no-dry-run` and `--apply` to make any change — a bare run only prints the intended API call.
-- **One choke point for AWS access**: a `SessionManager` wraps every boto3 client, so `--endpoint-url`, AWS profile, and optional `--assume-role-arn` apply uniformly across every scanner and remediation module.
+- **One choke point for AWS access**: a `SessionManager` wraps every boto3 client, so AWS profile, region, and optional `--assume-role-arn` apply uniformly across every scanner and remediation module.
 
-The whole project is built and tested against [LocalStack](https://www.localstack.cloud/) — a local AWS emulator — so it's safe to run, seed with intentionally insecure resources, and remediate without touching a real account.
+It runs against a real AWS account using the standard boto3 credential chain — your existing AWS CLI profile, environment variables, instance role, or an assumed cross-account role. Scanning only needs read access; the AWS-managed `SecurityAudit` policy covers everything `awsscanner scan` needs.
 
 ## Testing
 
 - **Unit tests** (`pytest` + [moto](https://github.com/getmoto/moto)) mock every AWS call, covering each scanner's pass/fail logic, the CIS catalog, report writers, and remediation — no Docker required.
-- **Integration tests** run the real scanners against a live, seeded LocalStack instance and auto-skip if it isn't running.
+- **Integration tests** exercise the full scan/remediate flow against a seeded [LocalStack](https://www.localstack.cloud/) instance, auto-skipping if it isn't running, so changes can be validated end-to-end without touching a real account.
 
 ## Outcome
 
-A working CLI that scans a seeded LocalStack environment, correctly flags intentionally-misconfigured resources (a public S3 bucket, an admin IAM user, a security group open on port 22, an unrotated KMS key) against their CIS control IDs, and can remediate the S3 finding end-to-end with a dry-run preview first. 29 unit + integration tests passing.
+A working CLI that scans an AWS account, flags misconfigured resources (public S3 buckets, admin IAM users, security groups open on SSH/RDP, unrotated KMS keys) against their CIS control IDs, and can remediate the S3 finding end-to-end with a dry-run preview first. 25 unit tests plus a LocalStack-backed integration suite passing.
 
 **Source code and full setup instructions: [github.com/bnipper-creator/aws-cis-scanner](https://github.com/bnipper-creator/aws-cis-scanner)**
