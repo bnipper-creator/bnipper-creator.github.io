@@ -13,3 +13,8 @@
 *.swp
 *.swo
 *~
+
+# AppSec harness lives in its own repo (github.com/bnipper-creator/appsec-harness).
+# Guard against accidentally re-committing it (and its large third-party target) here.
+/appsec-harness/
+/Appsec.md
