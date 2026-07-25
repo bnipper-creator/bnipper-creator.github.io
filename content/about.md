@@ -18,9 +18,10 @@ Incident response, offensive security, and cloud security across multiple domain
 
 ## Education
 
-**Georgia Tech — Online Master of Science in Computer Science (OMSCS)**
+**Georgia Tech - M.S. Cybersecurity (OMSCS)**
 - Specialization: Cybersecurity Track
-- Expected Graduation: May 2028
+- Started: Fall 2025
+- Expected Graduation: May 2027
 
 ---
 
