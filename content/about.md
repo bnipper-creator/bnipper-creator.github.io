@@ -5,7 +5,7 @@ url: /about
 
 ## Experience
 
-**Amazon — Security Engineer (5+ years)**
+**Amazon - Security Engineer (4.5+ years)**
 
 Incident response, offensive security, and cloud security across multiple domains:
 
