@@ -1,0 +1,34 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 3. On Storms",
+  "char_end": 330,
+  "char_start": 0,
+  "chunk_id": "004-00",
+  "contains_refs": [
+    "3:1",
+    "3:2",
+    "3:3"
+  ],
+  "cross_references": [
+    "1:2"
+  ],
+  "section_title": "When the Sky Turns",
+  "source_sha256": "33dc7ad268aa1a263aa22212a3b4b88e80784e955c38bc5be8f2a44a461ebfcd",
+  "spine_item": "chapter-03.xhtml",
+  "summary": "Storms announce themselves to those who watch the horizon and ambush those who watch their feet.",
+  "text": "Chapter 3. On Storms\n\nWhen the Sky Turns\n\nStorms announce themselves to those who watch the horizon and ambush those who watch their feet.\n\nShelter early; the traveler who runs from the first drop is dry, and the proud one is drowned (cf. 1:2).\n\nA storm is not punishment; it is weather, and weather is the price of being outside.",
+  "title": "When the Sky Turns",
+  "topics": [
+    "watch",
+    "weather",
+    "ambush",
+    "announce",
+    "drop"
+  ],
+  "verses": {
+    "chapter": 3,
+    "end": 3,
+    "start": 1
+  },
+  "word_count": 57
+}

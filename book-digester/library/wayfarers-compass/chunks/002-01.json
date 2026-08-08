@@ -1,0 +1,34 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 1. On Beginning",
+  "char_end": 598,
+  "char_start": 335,
+  "chunk_id": "002-01",
+  "contains_refs": [
+    "1:4",
+    "1:5",
+    "1:6"
+  ],
+  "cross_references": [
+    "3:2"
+  ],
+  "section_title": "Packing Light",
+  "source_sha256": "209d973031c268202eb17a1902e02d19cd69e880fdfcdee69c237d5eaf287a3d",
+  "spine_item": "chapter-01.xhtml",
+  "summary": "Carry only what serves the walk; every ounce of vanity is paid for later in blisters.",
+  "text": "Packing Light\n\nCarry only what serves the walk; every ounce of vanity is paid for later in blisters.\n\nA heavy pack is often a heavy heart, refusing to leave behind what it has outgrown (cf. 3:2).\n\nWater, bread, and a true bearing outlast gold on any real journey.",
+  "title": "Packing Light",
+  "topics": [
+    "heavy",
+    "bearing",
+    "blisters",
+    "bread",
+    "carry"
+  ],
+  "verses": {
+    "chapter": 1,
+    "end": 6,
+    "start": 4
+  },
+  "word_count": 44
+}

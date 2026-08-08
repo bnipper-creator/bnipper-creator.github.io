@@ -1,0 +1,34 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 2. On Direction",
+  "char_end": 302,
+  "char_start": 0,
+  "chunk_id": "003-00",
+  "contains_refs": [
+    "2:1",
+    "2:2",
+    "2:3"
+  ],
+  "cross_references": [
+    "1:3"
+  ],
+  "section_title": "Reading the Compass",
+  "source_sha256": "fac685489df61c71b0990cf4a9fb82b8f216eaffca3f7e7aea3e85cd617c6634",
+  "spine_item": "chapter-02.xhtml",
+  "summary": "A compass does not tell you where to go; it tells you the truth about where you are pointed.",
+  "text": "Chapter 2. On Direction\n\nReading the Compass\n\nA compass does not tell you where to go; it tells you the truth about where you are pointed.\n\nTrust the needle over the mood, for the mood turns with the weather and the needle does not.\n\nWhen the trail and the needle disagree, suspect the trail (see 1:3).",
+  "title": "Reading the Compass",
+  "topics": [
+    "needle",
+    "mood",
+    "trail",
+    "compass",
+    "disagree"
+  ],
+  "verses": {
+    "chapter": 2,
+    "end": 3,
+    "start": 1
+  },
+  "word_count": 53
+}

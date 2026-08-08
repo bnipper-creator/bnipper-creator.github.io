@@ -1,0 +1,33 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 4. On Arrival",
+  "char_end": 225,
+  "char_start": 0,
+  "chunk_id": "005-00",
+  "contains_refs": [
+    "4:1",
+    "4:2"
+  ],
+  "cross_references": [
+    "2:2"
+  ],
+  "section_title": "The Last Mile",
+  "source_sha256": "674caf3582b3c9e9ef1b0c260f6e12397852a256f31a4d5b6c0418646d6d9f1f",
+  "spine_item": "chapter-04.xhtml",
+  "summary": "The last mile is longer than the first because the body is tired and the mind is already home.",
+  "text": "Chapter 4. On Arrival\n\nThe Last Mile\n\nThe last mile is longer than the first because the body is tired and the mind is already home.\n\nDo not sprint the ending you walked the whole way to earn; finish with attention (cf. 2:2).",
+  "title": "The Last Mile",
+  "topics": [
+    "attention",
+    "body",
+    "earn",
+    "ending",
+    "finish"
+  ],
+  "verses": {
+    "chapter": 4,
+    "end": 2,
+    "start": 1
+  },
+  "word_count": 41
+}

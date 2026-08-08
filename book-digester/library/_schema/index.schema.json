@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/bnipper-creator/book-digester/library/_schema/index.schema.json",
+  "title": "book-digester index",
+  "description": "The queryable knowledge-base index produced for one digested book.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "book", "counts", "structure", "chunks",
+               "topics_index", "references_index", "cross_reference_index"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$"},
+    "book": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slug", "title", "author", "language", "source_format",
+                   "source_sha256", "structural_confidence", "generated_by"],
+      "properties": {
+        "slug": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "title": {"type": "string"},
+        "author": {"type": "string"},
+        "language": {"type": "string"},
+        "identifier": {"type": "string"},
+        "source_format": {"type": "string", "enum": ["epub", "txt", "pdf"]},
+        "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "structural_confidence": {"type": "string",
+                                   "enum": ["high", "medium", "low"]},
+        "generated_by": {"type": "string"}
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chunks", "chapters", "sections", "topics", "references"],
+      "properties": {
+        "chunks": {"type": "integer", "minimum": 0},
+        "chapters": {"type": "integer", "minimum": 0},
+        "sections": {"type": "integer", "minimum": 0},
+        "topics": {"type": "integer", "minimum": 0},
+        "references": {"type": "integer", "minimum": 0}
+      }
+    },
+    "structure": {"type": "array", "items": {"$ref": "#/definitions/node"}},
+    "chunks": {
+      "type": "array",
+      "items": {"$ref": "#/definitions/chunk_record"}
+    },
+    "topics_index": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "string", "pattern": "^\\d{3}-\\d{2}$"}
+      }
+    },
+    "references_index": {
+      "type": "object",
+      "additionalProperties": {"type": "string", "pattern": "^\\d{3}-\\d{2}$"}
+    },
+    "cross_reference_index": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "string", "pattern": "^\\d{3}-\\d{2}$"}
+      }
+    }
+  },
+  "definitions": {
+    "node": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "title"],
+      "properties": {
+        "type": {"type": "string", "enum": ["part", "chapter", "section"]},
+        "title": {"type": "string"},
+        "number": {"type": "integer"},
+        "spine_item": {"type": "string"},
+        "chunk_id": {"type": "string", "pattern": "^\\d{3}-\\d{2}$"},
+        "children": {"type": "array", "items": {"$ref": "#/definitions/node"}}
+      }
+    },
+    "chunk_record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["chunk_id", "book_slug", "title", "spine_item",
+                   "char_start", "char_end", "source_sha256", "word_count",
+                   "summary", "topics", "contains_refs", "cross_references"],
+      "properties": {
+        "chunk_id": {"type": "string", "pattern": "^\\d{3}-\\d{2}$"},
+        "book_slug": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "title": {"type": "string"},
+        "chapter_title": {"type": ["string", "null"]},
+        "section_title": {"type": ["string", "null"]},
+        "spine_item": {"type": "string"},
+        "char_start": {"type": "integer", "minimum": 0},
+        "char_end": {"type": "integer", "minimum": 0},
+        "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "word_count": {"type": "integer", "minimum": 0},
+        "summary": {"type": "string"},
+        "topics": {"type": "array", "items": {"type": "string"}},
+        "contains_refs": {"type": "array", "items": {"type": "string"}},
+        "cross_references": {"type": "array", "items": {"type": "string"}},
+        "verses": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["chapter", "start", "end"],
+          "properties": {
+            "chapter": {"type": "integer"},
+            "start": {"type": "integer"},
+            "end": {"type": "integer"}
+          }
+        }
+      }
+    }
+  }
+}

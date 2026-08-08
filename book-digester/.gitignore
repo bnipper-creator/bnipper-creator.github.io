@@ -1,0 +1,12 @@
+# Never commit raw book binaries (copyright + size). The self-authored
+# fixture under fixtures/ is the deliberate, safe exception.
+*.epub
+*.pdf
+*.mobi
+*.azw
+*.azw3
+!fixtures/*.epub
+
+# Python
+__pycache__/
+*.pyc
