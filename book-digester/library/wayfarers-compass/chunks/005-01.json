@@ -1,0 +1,34 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 4. On Arrival",
+  "char_end": 525,
+  "char_start": 227,
+  "chunk_id": "005-01",
+  "contains_refs": [
+    "4:3",
+    "4:4",
+    "4:5"
+  ],
+  "cross_references": [
+    "3:2"
+  ],
+  "section_title": "Setting Down the Pack",
+  "source_sha256": "674caf3582b3c9e9ef1b0c260f6e12397852a256f31a4d5b6c0418646d6d9f1f",
+  "spine_item": "chapter-04.xhtml",
+  "summary": "Arrival is not the end of the compass but the beginning of its rest; put it where you can find it again.",
+  "text": "Setting Down the Pack\n\nArrival is not the end of the compass but the beginning of its rest; put it where you can find it again.\n\nTell the road honestly to the next traveler: the dry shelters, the false trails, the true bearings (see 3:2).\n\nThen set down the pack, and let the walk have been enough.",
+  "title": "Setting Down the Pack",
+  "topics": [
+    "arrival",
+    "bearings",
+    "beginning",
+    "compass",
+    "false"
+  ],
+  "verses": {
+    "chapter": 4,
+    "end": 5,
+    "start": 3
+  },
+  "word_count": 56
+}

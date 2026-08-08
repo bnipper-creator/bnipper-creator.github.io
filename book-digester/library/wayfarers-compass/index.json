@@ -1,0 +1,527 @@
+{
+  "book": {
+    "author": "B. Nipper",
+    "generated_by": "book-digester 1.0.0",
+    "identifier": "urn:uuid:wayfarers-compass-0001",
+    "language": "en",
+    "slug": "wayfarers-compass",
+    "source_format": "epub",
+    "source_sha256": "90cf8336c89c35598990963cf8d0da3f754c0d4dd405dddb20e9ace75c77cff5",
+    "structural_confidence": "high",
+    "title": "The Wayfarer's Compass: A Field Manual for Steady Living"
+  },
+  "chunks": [
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 1. On Beginning",
+      "char_end": 333,
+      "char_start": 0,
+      "chunk_id": "002-00",
+      "contains_refs": [
+        "1:1",
+        "1:2",
+        "1:3"
+      ],
+      "cross_references": [],
+      "section_title": "The First Step",
+      "source_sha256": "209d973031c268202eb17a1902e02d19cd69e880fdfcdee69c237d5eaf287a3d",
+      "spine_item": "chapter-01.xhtml",
+      "summary": "Every long road opens with a single unremarkable step, taken before the traveler feels ready. Readiness is not a feeling that arrives; it is a decision that is made and then defended.",
+      "title": "The First Step",
+      "topics": [
+        "certainty",
+        "waits",
+        "decision",
+        "defended",
+        "feeling"
+      ],
+      "verses": {
+        "chapter": 1,
+        "end": 3,
+        "start": 1
+      },
+      "word_count": 52
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 1. On Beginning",
+      "char_end": 598,
+      "char_start": 335,
+      "chunk_id": "002-01",
+      "contains_refs": [
+        "1:4",
+        "1:5",
+        "1:6"
+      ],
+      "cross_references": [
+        "3:2"
+      ],
+      "section_title": "Packing Light",
+      "source_sha256": "209d973031c268202eb17a1902e02d19cd69e880fdfcdee69c237d5eaf287a3d",
+      "spine_item": "chapter-01.xhtml",
+      "summary": "Carry only what serves the walk; every ounce of vanity is paid for later in blisters.",
+      "title": "Packing Light",
+      "topics": [
+        "heavy",
+        "bearing",
+        "blisters",
+        "bread",
+        "carry"
+      ],
+      "verses": {
+        "chapter": 1,
+        "end": 6,
+        "start": 4
+      },
+      "word_count": 44
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 2. On Direction",
+      "char_end": 302,
+      "char_start": 0,
+      "chunk_id": "003-00",
+      "contains_refs": [
+        "2:1",
+        "2:2",
+        "2:3"
+      ],
+      "cross_references": [
+        "1:3"
+      ],
+      "section_title": "Reading the Compass",
+      "source_sha256": "fac685489df61c71b0990cf4a9fb82b8f216eaffca3f7e7aea3e85cd617c6634",
+      "spine_item": "chapter-02.xhtml",
+      "summary": "A compass does not tell you where to go; it tells you the truth about where you are pointed.",
+      "title": "Reading the Compass",
+      "topics": [
+        "needle",
+        "mood",
+        "trail",
+        "compass",
+        "disagree"
+      ],
+      "verses": {
+        "chapter": 2,
+        "end": 3,
+        "start": 1
+      },
+      "word_count": 53
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 2. On Direction",
+      "char_end": 602,
+      "char_start": 304,
+      "chunk_id": "003-01",
+      "contains_refs": [
+        "2:4",
+        "2:5",
+        "2:6"
+      ],
+      "cross_references": [],
+      "section_title": "True North",
+      "source_sha256": "fac685489df61c71b0990cf4a9fb82b8f216eaffca3f7e7aea3e85cd617c6634",
+      "spine_item": "chapter-02.xhtml",
+      "summary": "There is magnetic north, which is convenient, and true north, which is correct; know the difference.",
+      "title": "True North",
+      "topics": [
+        "correct",
+        "lost",
+        "north",
+        "afternoon",
+        "checks"
+      ],
+      "verses": {
+        "chapter": 2,
+        "end": 6,
+        "start": 4
+      },
+      "word_count": 49
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 3. On Storms",
+      "char_end": 330,
+      "char_start": 0,
+      "chunk_id": "004-00",
+      "contains_refs": [
+        "3:1",
+        "3:2",
+        "3:3"
+      ],
+      "cross_references": [
+        "1:2"
+      ],
+      "section_title": "When the Sky Turns",
+      "source_sha256": "33dc7ad268aa1a263aa22212a3b4b88e80784e955c38bc5be8f2a44a461ebfcd",
+      "spine_item": "chapter-03.xhtml",
+      "summary": "Storms announce themselves to those who watch the horizon and ambush those who watch their feet.",
+      "title": "When the Sky Turns",
+      "topics": [
+        "watch",
+        "weather",
+        "ambush",
+        "announce",
+        "drop"
+      ],
+      "verses": {
+        "chapter": 3,
+        "end": 3,
+        "start": 1
+      },
+      "word_count": 57
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 3. On Storms",
+      "char_end": 639,
+      "char_start": 332,
+      "chunk_id": "004-01",
+      "contains_refs": [
+        "3:4",
+        "3:5",
+        "3:6"
+      ],
+      "cross_references": [
+        "4:1"
+      ],
+      "section_title": "Patience in the Wet",
+      "source_sha256": "33dc7ad268aa1a263aa22212a3b4b88e80784e955c38bc5be8f2a44a461ebfcd",
+      "spine_item": "chapter-03.xhtml",
+      "summary": "Waiting is a skill, not a failure; the patient wayfarer conserves what the anxious one spends.",
+      "title": "Patience in the Wet",
+      "topics": [
+        "anxious",
+        "conserves",
+        "count",
+        "danger",
+        "failure"
+      ],
+      "verses": {
+        "chapter": 3,
+        "end": 6,
+        "start": 4
+      },
+      "word_count": 53
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 4. On Arrival",
+      "char_end": 225,
+      "char_start": 0,
+      "chunk_id": "005-00",
+      "contains_refs": [
+        "4:1",
+        "4:2"
+      ],
+      "cross_references": [
+        "2:2"
+      ],
+      "section_title": "The Last Mile",
+      "source_sha256": "674caf3582b3c9e9ef1b0c260f6e12397852a256f31a4d5b6c0418646d6d9f1f",
+      "spine_item": "chapter-04.xhtml",
+      "summary": "The last mile is longer than the first because the body is tired and the mind is already home.",
+      "title": "The Last Mile",
+      "topics": [
+        "attention",
+        "body",
+        "earn",
+        "ending",
+        "finish"
+      ],
+      "verses": {
+        "chapter": 4,
+        "end": 2,
+        "start": 1
+      },
+      "word_count": 41
+    },
+    {
+      "book_slug": "wayfarers-compass",
+      "chapter_title": "Chapter 4. On Arrival",
+      "char_end": 525,
+      "char_start": 227,
+      "chunk_id": "005-01",
+      "contains_refs": [
+        "4:3",
+        "4:4",
+        "4:5"
+      ],
+      "cross_references": [
+        "3:2"
+      ],
+      "section_title": "Setting Down the Pack",
+      "source_sha256": "674caf3582b3c9e9ef1b0c260f6e12397852a256f31a4d5b6c0418646d6d9f1f",
+      "spine_item": "chapter-04.xhtml",
+      "summary": "Arrival is not the end of the compass but the beginning of its rest; put it where you can find it again.",
+      "title": "Setting Down the Pack",
+      "topics": [
+        "arrival",
+        "bearings",
+        "beginning",
+        "compass",
+        "false"
+      ],
+      "verses": {
+        "chapter": 4,
+        "end": 5,
+        "start": 3
+      },
+      "word_count": 56
+    }
+  ],
+  "counts": {
+    "chapters": 4,
+    "chunks": 8,
+    "references": 23,
+    "sections": 8,
+    "topics": 39
+  },
+  "cross_reference_index": {
+    "1:2": [
+      "004-00"
+    ],
+    "1:3": [
+      "003-00"
+    ],
+    "2:2": [
+      "005-00"
+    ],
+    "3:2": [
+      "002-01",
+      "005-01"
+    ],
+    "4:1": [
+      "004-01"
+    ]
+  },
+  "references_index": {
+    "1:1": "002-00",
+    "1:2": "002-00",
+    "1:3": "002-00",
+    "1:4": "002-01",
+    "1:5": "002-01",
+    "1:6": "002-01",
+    "2:1": "003-00",
+    "2:2": "003-00",
+    "2:3": "003-00",
+    "2:4": "003-01",
+    "2:5": "003-01",
+    "2:6": "003-01",
+    "3:1": "004-00",
+    "3:2": "004-00",
+    "3:3": "004-00",
+    "3:4": "004-01",
+    "3:5": "004-01",
+    "3:6": "004-01",
+    "4:1": "005-00",
+    "4:2": "005-00",
+    "4:3": "005-01",
+    "4:4": "005-01",
+    "4:5": "005-01"
+  },
+  "schema_version": "1.0.0",
+  "structure": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "chunk_id": "002-00",
+              "title": "The First Step",
+              "type": "section"
+            },
+            {
+              "chunk_id": "002-01",
+              "title": "Packing Light",
+              "type": "section"
+            }
+          ],
+          "spine_item": "chapter-01.xhtml",
+          "title": "Chapter 1. On Beginning",
+          "type": "chapter"
+        },
+        {
+          "children": [
+            {
+              "chunk_id": "003-00",
+              "title": "Reading the Compass",
+              "type": "section"
+            },
+            {
+              "chunk_id": "003-01",
+              "title": "True North",
+              "type": "section"
+            }
+          ],
+          "spine_item": "chapter-02.xhtml",
+          "title": "Chapter 2. On Direction",
+          "type": "chapter"
+        }
+      ],
+      "title": "Part I — Bearings",
+      "type": "part"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "chunk_id": "004-00",
+              "title": "When the Sky Turns",
+              "type": "section"
+            },
+            {
+              "chunk_id": "004-01",
+              "title": "Patience in the Wet",
+              "type": "section"
+            }
+          ],
+          "spine_item": "chapter-03.xhtml",
+          "title": "Chapter 3. On Storms",
+          "type": "chapter"
+        },
+        {
+          "children": [
+            {
+              "chunk_id": "005-00",
+              "title": "The Last Mile",
+              "type": "section"
+            },
+            {
+              "chunk_id": "005-01",
+              "title": "Setting Down the Pack",
+              "type": "section"
+            }
+          ],
+          "spine_item": "chapter-04.xhtml",
+          "title": "Chapter 4. On Arrival",
+          "type": "chapter"
+        }
+      ],
+      "title": "Part II — Weather",
+      "type": "part"
+    }
+  ],
+  "topics_index": {
+    "afternoon": [
+      "003-01"
+    ],
+    "ambush": [
+      "004-00"
+    ],
+    "announce": [
+      "004-00"
+    ],
+    "anxious": [
+      "004-01"
+    ],
+    "arrival": [
+      "005-01"
+    ],
+    "attention": [
+      "005-00"
+    ],
+    "bearing": [
+      "002-01"
+    ],
+    "bearings": [
+      "005-01"
+    ],
+    "beginning": [
+      "005-01"
+    ],
+    "blisters": [
+      "002-01"
+    ],
+    "body": [
+      "005-00"
+    ],
+    "bread": [
+      "002-01"
+    ],
+    "carry": [
+      "002-01"
+    ],
+    "certainty": [
+      "002-00"
+    ],
+    "checks": [
+      "003-01"
+    ],
+    "compass": [
+      "003-00",
+      "005-01"
+    ],
+    "conserves": [
+      "004-01"
+    ],
+    "correct": [
+      "003-01"
+    ],
+    "count": [
+      "004-01"
+    ],
+    "danger": [
+      "004-01"
+    ],
+    "decision": [
+      "002-00"
+    ],
+    "defended": [
+      "002-00"
+    ],
+    "disagree": [
+      "003-00"
+    ],
+    "drop": [
+      "004-00"
+    ],
+    "earn": [
+      "005-00"
+    ],
+    "ending": [
+      "005-00"
+    ],
+    "failure": [
+      "004-01"
+    ],
+    "false": [
+      "005-01"
+    ],
+    "feeling": [
+      "002-00"
+    ],
+    "finish": [
+      "005-00"
+    ],
+    "heavy": [
+      "002-01"
+    ],
+    "lost": [
+      "003-01"
+    ],
+    "mood": [
+      "003-00"
+    ],
+    "needle": [
+      "003-00"
+    ],
+    "north": [
+      "003-01"
+    ],
+    "trail": [
+      "003-00"
+    ],
+    "waits": [
+      "002-00"
+    ],
+    "watch": [
+      "004-00"
+    ],
+    "weather": [
+      "004-00"
+    ]
+  }
+}

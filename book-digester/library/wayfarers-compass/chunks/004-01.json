@@ -1,0 +1,34 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 3. On Storms",
+  "char_end": 639,
+  "char_start": 332,
+  "chunk_id": "004-01",
+  "contains_refs": [
+    "3:4",
+    "3:5",
+    "3:6"
+  ],
+  "cross_references": [
+    "4:1"
+  ],
+  "section_title": "Patience in the Wet",
+  "source_sha256": "33dc7ad268aa1a263aa22212a3b4b88e80784e955c38bc5be8f2a44a461ebfcd",
+  "spine_item": "chapter-03.xhtml",
+  "summary": "Waiting is a skill, not a failure; the patient wayfarer conserves what the anxious one spends.",
+  "text": "Patience in the Wet\n\nWaiting is a skill, not a failure; the patient wayfarer conserves what the anxious one spends.\n\nCount the thunder after the light to learn how far the danger stands, and let the number steady you.\n\nNo storm has ever lasted the whole of a life, though many have felt that long (see 4:1).",
+  "title": "Patience in the Wet",
+  "topics": [
+    "anxious",
+    "conserves",
+    "count",
+    "danger",
+    "failure"
+  ],
+  "verses": {
+    "chapter": 3,
+    "end": 6,
+    "start": 4
+  },
+  "word_count": 53
+}

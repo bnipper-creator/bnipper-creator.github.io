@@ -1,0 +1,44 @@
+{
+  "book_slug": "wayfarers-compass",
+  "coverage_ratio": 1.0,
+  "excluded_spine_items": [
+    {
+      "reason": "cover page (no substantive body text)",
+      "spine_item": "cover.xhtml",
+      "words": 8
+    },
+    {
+      "reason": "copyright/colophon page",
+      "spine_item": "copyright.xhtml",
+      "words": 31
+    }
+  ],
+  "included_spine_items": [
+    {
+      "chunks": 2,
+      "spine_item": "chapter-01.xhtml",
+      "words": 96
+    },
+    {
+      "chunks": 2,
+      "spine_item": "chapter-02.xhtml",
+      "words": 102
+    },
+    {
+      "chunks": 2,
+      "spine_item": "chapter-03.xhtml",
+      "words": 110
+    },
+    {
+      "chunks": 2,
+      "spine_item": "chapter-04.xhtml",
+      "words": 97
+    }
+  ],
+  "mapped_words": 405,
+  "passes": true,
+  "substantive_words": 405,
+  "threshold": 0.99,
+  "total_words": 444,
+  "unmapped_words": 0
+}

@@ -1,0 +1,32 @@
+{
+  "book_slug": "wayfarers-compass",
+  "chapter_title": "Chapter 2. On Direction",
+  "char_end": 602,
+  "char_start": 304,
+  "chunk_id": "003-01",
+  "contains_refs": [
+    "2:4",
+    "2:5",
+    "2:6"
+  ],
+  "cross_references": [],
+  "section_title": "True North",
+  "source_sha256": "fac685489df61c71b0990cf4a9fb82b8f216eaffca3f7e7aea3e85cd617c6634",
+  "spine_item": "chapter-02.xhtml",
+  "summary": "There is magnetic north, which is convenient, and true north, which is correct; know the difference.",
+  "text": "True North\n\nThere is magnetic north, which is convenient, and true north, which is correct; know the difference.\n\nCorrect for the drift between them daily, or the small error will compound into a lost afternoon.\n\nThe traveler who never checks the correction is the most confident and the most lost.",
+  "title": "True North",
+  "topics": [
+    "correct",
+    "lost",
+    "north",
+    "afternoon",
+    "checks"
+  ],
+  "verses": {
+    "chapter": 2,
+    "end": 6,
+    "start": 4
+  },
+  "word_count": 49
+}
